@@ -1,0 +1,32 @@
+ManifestFileVersion: 0
+CRC: 3619565054
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1a8b5d2b676623dd2f557eefed5233b6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 14efc35b113378927c237763694da043
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Prefabs/CylinderPrefab.prefab
+Dependencies:
+- D:/Projects/SimpleShaderVariantCollectionWithAssetBundleSample/Assets/StreamingAssets/AssetBundle/Windows/assetbundlecommonshaders

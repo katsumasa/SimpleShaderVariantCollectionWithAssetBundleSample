@@ -19,7 +19,10 @@ public static class AssetBundleEditor {
 		if (!System.IO.Directory.Exists (path)) {
 			System.IO.Directory.CreateDirectory (path);
 		}
-		BuildPipeline.BuildAssetBundles (path, BuildAssetBundleOptions.ChunkBasedCompression,EditorUserBuildSettings.activeBuildTarget);
+
+		var buildOpts = BuildAssetBundleOptions.ChunkBasedCompression;
+
+		BuildPipeline.BuildAssetBundles (path, buildOpts,EditorUserBuildSettings.activeBuildTarget);
 	}
 
 	/// <summary>

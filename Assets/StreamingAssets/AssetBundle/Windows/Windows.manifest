@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 3243789415
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: assetbundlecube
+      Dependencies:
+        Dependency_0: assetbundlecommonshaders
+    Info_1:
+      Name: assetbundlecommonshaders
+      Dependencies: {}
+    Info_2:
+      Name: assetbundlecylinder
+      Dependencies:
+        Dependency_0: assetbundlecommonshaders
+    Info_3:
+      Name: assetbundlesphere
+      Dependencies:
+        Dependency_0: assetbundlecommonshaders
