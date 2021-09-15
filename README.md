@@ -53,8 +53,8 @@ Normal _COLOR_GREEN
 
 Consoleにずらずらと存在しないKeyword(但しIndex)が表示され、
 
-![alt text](Docs\image\2021-09-14-113459.png)
+![alt text](Docs/image/2021-09-14-113459.png)
 
 AssetBundle内には存在しない、Blueのバリアントが有効になった状態でCylinderが描画されていることが確認出来ます。
 
-![alt text](Docs\image\ShaderLiveLinkSupport.png)
+![alt text](Docs/image/ShaderLiveLinkSupport.png)
