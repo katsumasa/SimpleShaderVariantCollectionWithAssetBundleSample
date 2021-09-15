@@ -49,12 +49,18 @@ Normal _COLOR_GREEN
 
 ## ShaderLiveLinkについて
 
-`Menu>Build>Android(ShaderLiveLinkSupport)`から`Buid & Run`を実行します。
+Shader Live LinkはRuntimeに存在しないバリアントをUnityEditorからロードする機能です。
+この機能を有効にすることで、バリアントが不足している為、黒で描画されていたCylinderも正しく描画することが可能です。
+
+### 実行方法
+
+`Menu>Build>Android(ShaderLiveLinkSupport)`を実行してください。
+`ShaderLiveLink`が有効になったバイナリがビルドされ実機に転送されます。
 
 Consoleにずらずらと存在しないKeyword(但しIndex)が表示され、
 
 ![alt text](Docs/image/2021-09-14-113459.png)
 
-AssetBundle内には存在しない、Blueのバリアントが有効になった状態でCylinderが描画されていることが確認出来ます。
+AssetBundle内には存在しない、Blueのバリアントが有効になった状態でCylinderが描画されていることが確認出来ている筈です。
 
 ![alt text](Docs/image/ShaderLiveLinkSupport.png)
